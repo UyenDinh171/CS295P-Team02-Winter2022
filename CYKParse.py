@@ -182,7 +182,12 @@ if __name__ == '__main__':
     
     # Restaurant
     #CYKParse(['where', 'to', 'go', 'for', 'a', 'dinner', 'in', 'Irvine'], getGrammar())
+    #CYKParse(['where', 'to', 'go', 'for', 'a', 'buffet', 'in', 'Irvine'], getGrammar())
+    #CYKParse(['where', 'to', 'go', 'for', 'a', 'bbq', 'in', 'Irvine'], getGrammar())
+    #CYKParse(['where', 'to', 'go', 'for', 'a', 'sushi', 'in', 'Irvine'], getGrammar())
     #CYKParse(['sushi'], getGrammar())
     #CYKParse(['show', 'me', 'the', 'menu'], getGrammar())
+    #CYKParse(['what', 'do', 'they', 'have', 'for', 'food'], getGrammar())
+    #CYKParse(['what', 'do', 'they', 'have', 'for', 'drink'], getGrammar())
     
    
