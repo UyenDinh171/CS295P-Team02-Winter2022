@@ -9,7 +9,7 @@
 - UI Design
 - Recommendation System
 
-### Goal for next week
+### Work to do
 - Finish UI design
 - Implement the collaborative recommendation algorithm
 - Fixing the grammar syntax for the data
