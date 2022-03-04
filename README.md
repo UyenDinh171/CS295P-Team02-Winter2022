@@ -6,7 +6,7 @@
 - A chatbot that can understand users’ questions and provide corresponding replies.
 - Recommend restaurants and movie theatres based on users’ preferences.
 
-### Work done**
+### Work done
 - CYK Algorithm
 - UI Design
 - Recommendation System
