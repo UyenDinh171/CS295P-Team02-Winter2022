@@ -10,6 +10,7 @@
 - Recommendation System
 
 ### Work to do
+- Finish the document for this project
 - Finish UI design
 - Implement the collaborative recommendation algorithm
 - Fixing the grammar syntax for the data
