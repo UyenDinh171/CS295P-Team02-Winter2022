@@ -12,11 +12,10 @@
 - CYK Algorithm
 - UI Design
 - Recommendation System
+- Flowchart
 
 ### Work to do
-- Finish the document for this project
-- Finish UI design
 - Implement the collaborative recommendation algorithm
-- Fixing the grammar syntax for the data
+- Fixing the grammar syntax for the data so it can handle the variable type of input
 - Implement the response functions for the chatbot
 
