@@ -146,10 +146,11 @@ def getGrammar():
             
             ['Pronoun', 'me', 1.0],
             
-            ['Noun', 'menu', 0.25],
-            ['Noun', 'movie', 0.25],
-            ['Noun', 'dinner', 0.25],
-            ['Noun', 'sushi', 0.25],
+            ['Noun', 'menu', 0.2],
+            ['Noun', 'movie', 0.2],
+            ['Noun', 'dinner', 0.2],
+            ['Noun', 'sushi', 0.2],
+            ['Noun', 'buffet', 0.2],
             
             ['Type', 'action', 1.0],
             
@@ -176,15 +177,14 @@ if __name__ == '__main__':
     verbose = True
     
     # Movie theater
-    #CYKParse(['where', 'to', 'go', 'for', 'a', 'movie', 'in', 'Irvine'], getGrammar())
-    CYKParse(['action', 'movie'], getGrammar())
+    CYKParse(['where', 'to', 'go', 'for', 'a', 'movie', 'in', 'Irvine'], getGrammar())
+    #CYKParse(['action', 'movie'], getGrammar())
     #CYKParse(['7', 'pm'], getGrammar())
     
     # Restaurant
-    #CYKParse(['where', 'to', 'go', 'for', 'a', 'dinner', 'in', 'Irvine'], getGrammar())
-    #CYKParse(['where', 'to', 'go', 'for', 'a', 'buffet', 'in', 'Irvine'], getGrammar())
-    #CYKParse(['where', 'to', 'go', 'for', 'a', 'bbq', 'in', 'Irvine'], getGrammar())
-    #CYKParse(['where', 'to', 'go', 'for', 'a', 'sushi', 'in', 'Irvine'], getGrammar())
+    CYKParse(['where', 'to', 'go', 'for', 'a', 'dinner', 'in', 'Irvine'], getGrammar())
+    CYKParse(['where', 'to', 'go', 'for', 'a', 'buffet', 'in', 'Irvine'], getGrammar())
+    CYKParse(['where', 'to', 'go', 'for', 'a', 'sushi', 'in', 'Irvine'], getGrammar())
     #CYKParse(['sushi'], getGrammar())
     #CYKParse(['show', 'me', 'the', 'menu'], getGrammar())
     #CYKParse(['what', 'do', 'they', 'have', 'for', 'food'], getGrammar())
